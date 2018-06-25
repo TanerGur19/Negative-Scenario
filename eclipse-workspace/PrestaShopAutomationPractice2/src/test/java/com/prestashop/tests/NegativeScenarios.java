@@ -62,7 +62,7 @@ public class NegativeScenarios {
 		String expected = "An email address required.";
 		Assert.assertTrue(actual.equals(expected));
 	}
-	// Test
+	// 
 	@Test
 	public void blankPasswordTest() {
 		driver.findElement(By.id("email")).sendKeys("wrongemail@gmail.com");
