@@ -50,7 +50,7 @@ public class NegativeScenarios {
 		String expected = "Invalid email address.";
 		Assert.assertTrue(actual.equals(expected));
 	}
-	
+	//
 	@Test
 	public void blankEmailTest() {
 		driver.findElement(By.id("email")).sendKeys("");
